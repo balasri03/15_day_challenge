@@ -4,16 +4,13 @@
 
 # You can return the answer in any order.
 
-
-class Solution(object):
-    def twoSum(self, nums, target):
-        hashmap = {}
-        for i, j in enumerate(nums):
-            remain = target - j
-            if remain in hashmap:
-                return [hashmap[remain], i]
-            hashmap[j] = i
-s=Solution()
-print(s.twoSum([2,7,11,15],9))
+def twoSum(nums, target):
+    hashmap = {}
+    for i, j in enumerate(nums):
+        remain = target - j
+        if remain in hashmap:
+            return [hashmap[remain], i]
+        hashmap[j] = i
+print(twoSum([2,7,11,15],9))
 
  
