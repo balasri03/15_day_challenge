@@ -3,4 +3,4 @@
 def firstOccurrenceOfSubstring(s1,s2):
     return s1.find(s2)
 
-print(firstOccurrenceOfSubstring("sadbutsad","sad"))
+print(firstOccurrenceOfSubstring("sadbutsad","but"))

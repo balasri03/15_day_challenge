@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 15_day_challenge
 15 days DSA challenge from digg_deepe
 =======
@@ -34,6 +34,10 @@ I'll be documenting each day’s progress right here, along with code solutions 
 3. [Two Sum](https://leetcode.com/problems/two-sum/)  
    ➤ Used a hashmap for efficient O(n) solution
 
+
+🧠 **Reflection:**  
+Solid start! Felt comfortable with array manipulation and hashmap logic. Focus tomorrow: practice a medium difficulty dynamic programming problem.
+
 ## 📘 Day 2 - August 3, 2025
 
 **Problems Solved:**
@@ -45,8 +49,21 @@ I'll be documenting each day’s progress right here, along with code solutions 
 Example: Focused on using stacks and two-pointer strategies today.
 
 
+## 📘 Day 3 - August 4, 2025
+
+**Problems Solved:**
+1. [Valid Anagram (LeetCode 242)](https://leetcode.com/problems/valid-anagram/)  
+   ➤ Compared sorted strings and used hash maps for optimized checking.  
+2. [Find the Index of the First Occurrence in a String (LeetCode 28)](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/)  
+   ➤ Applied Python's built-in `find()` and also practiced manual sliding window approach.  
+3. [Group Anagrams (LeetCode 49)](https://leetcode.com/problems/group-anagrams/)  
+   ➤ Used a hash map with tuple-sorted keys to group anagrams efficiently.
+
 🧠 **Reflection:**  
-Solid start! Felt comfortable with array manipulation and hashmap logic. Focus tomorrow: practice a medium difficulty dynamic programming problem.
+Focused on string manipulation and hash map use cases today. Grouping anagrams helped solidify understanding of key design using immutable structures like tuples. Feeling more confident with intermediate string problems!
+
+
+
 
 ---
 
@@ -57,5 +74,13 @@ Solid start! Felt comfortable with array manipulation and hashmap logic. Focus t
 │   ├── maximum_subarray.py
 │   ├── remove_duplicates.py
 │   └── two_sum.py
+├── day2/
+|   ├──question_01.py
+|   ├──question_02.py
+|   ├──question_03.py
+├── day3/
+|   ├──question_1.py
+|   ├──question_2.py
+|   ├──question_3.py
 ├── README.md
->>>>>>> 4f034ab (Day 1: Solved Maximum Subarray, Remove Duplicates, Two Sum)
+
