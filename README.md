@@ -62,6 +62,18 @@ Example: Focused on using stacks and two-pointer strategies today.
 🧠 **Reflection:**  
 Focused on string manipulation and hash map use cases today. Grouping anagrams helped solidify understanding of key design using immutable structures like tuples. Feeling more confident with intermediate string problems!
 
+## 📘 Day 4 - August 5, 2025
+
+**Problems Solved:**
+1. [Subarray Sum Equals K (LeetCode 560)](https://leetcode.com/problems/subarray-sum-equals-k/)  
+   ➤ Solved using prefix sum and hashmap to achieve O(n) complexity.  
+2. [Longest Palindromic Substring (LeetCode 5)](https://leetcode.com/problems/longest-palindromic-substring/)  
+   ➤ Used expand-around-center approach for O(n²) solution. Also reviewed dynamic programming technique.  
+3. [Valid Parentheses (LeetCode 20)](https://leetcode.com/problems/valid-parentheses/)  
+   ➤ Reinforced stack-based approach for matching brackets.
+
+🧠 **Reflection:**  
+Today’s problems required combining hash maps, sliding windows, and stack-based logic. Especially enjoyed solving the palindrome problem by understanding how to expand from the center. Getting better at spotting optimal patterns!
 
 
 
@@ -82,5 +94,8 @@ Focused on string manipulation and hash map use cases today. Grouping anagrams h
 |   ├──question_1.py
 |   ├──question_2.py
 |   ├──question_3.py
+├── day4/
+|   ├──question_01.py
+|   ├──question_02.py
+|   ├──question_03.py 
 ├── README.md
-
