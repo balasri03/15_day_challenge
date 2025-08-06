@@ -75,6 +75,18 @@ Focused on string manipulation and hash map use cases today. Grouping anagrams h
 🧠 **Reflection:**  
 Today’s problems required combining hash maps, sliding windows, and stack-based logic. Especially enjoyed solving the palindrome problem by understanding how to expand from the center. Getting better at spotting optimal patterns!
 
+## 📘 Day 5 - August 6, 2025
+
+**Problems Solved:**
+1. [Binary Search (LeetCode 704)](https://leetcode.com/problems/binary-search/)  
+   ➤ Implemented classic binary search (iterative and recursive) for sorted arrays.  
+2. [Linked List Cycle (LeetCode 141)](https://leetcode.com/problems/linked-list-cycle/)  
+   ➤ Used Floyd’s Cycle Detection Algorithm (Tortoise and Hare approach).  
+3. [Trapping Rain Water (LeetCode 42)](https://leetcode.com/problems/trapping-rain-water/)  
+   ➤ Solved using two-pointer approach to optimize space and time.
+
+🧠 **Reflection:**  
+Covered a wide range of topics today—search algorithms, linked list traversal, and an advanced two-pointer technique for a classic array problem. The rainwater problem was tricky but fun to break down!
 
 
 ---
@@ -95,6 +107,10 @@ Today’s problems required combining hash maps, sliding windows, and stack-base
 |   ├──question_2.py
 |   ├──question_3.py
 ├── day4/
+|   ├──question_01.py
+|   ├──question_02.py
+|   ├──question_03.py 
+├── day5/
 |   ├──question_01.py
 |   ├──question_02.py
 |   ├──question_03.py 
