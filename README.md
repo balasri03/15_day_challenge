@@ -88,7 +88,20 @@ Today’s problems required combining hash maps, sliding windows, and stack-base
 🧠 **Reflection:**  
 Covered a wide range of topics today—search algorithms, linked list traversal, and an advanced two-pointer technique for a classic array problem. The rainwater problem was tricky but fun to break down!
 
+📘 Day 6 - August 7, 2025
+Problems Solved:
 
+Search Insert Position (LeetCode 35)
+➤ Used binary search to find the correct insertion point in O(log n) time.
+
+Two Sum II - Input Array Is Sorted (LeetCode 167)
+➤ Applied the two-pointer technique on a sorted array for optimal performance.
+
+Longest Substring Without Repeating Characters (LeetCode 3)
+➤ Implemented sliding window approach using a hash set for O(n) solution.
+
+🧠 Reflection:
+Today was packed with foundational techniques like binary search, two-pointers, and sliding window. These patterns are recurring themes in interviews, and solving them under time constraints helped reinforce clarity and speed. Sliding window problems are becoming more intuitive!
 ---
 
 ## 📂 Folder Structure:
@@ -114,4 +127,8 @@ Covered a wide range of topics today—search algorithms, linked list traversal,
 |   ├──question_01.py
 |   ├──question_02.py
 |   ├──question_03.py 
+├── day6/
+|   ├──question_1.py
+|   ├──question_2.py
+|   ├──question_3.py
 ├── README.md
