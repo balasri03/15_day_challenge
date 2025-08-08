@@ -102,6 +102,21 @@ Longest Substring Without Repeating Characters (LeetCode 3)
 
 🧠 Reflection:
 Today was packed with foundational techniques like binary search, two-pointers, and sliding window. These patterns are recurring themes in interviews, and solving them under time constraints helped reinforce clarity and speed. Sliding window problems are becoming more intuitive!
+
+📘 Day 7 - August 8, 2025
+Problems Solved:
+
+132 Pattern (LeetCode 456)
+➤ Solved using a monotonic stack approach from right to left to achieve O(n) complexity.
+
+Reverse Linked List II (LeetCode 92)
+➤ Implemented in-place reversal for a sublist between two positions using pointer manipulation.
+
+Sliding Window Maximum (LeetCode 239)
+➤ Used a deque to maintain the index of potential maximums for each window in O(n) time.
+
+🧠 Reflection:
+Today’s problems were a solid mix of stack-based patterns, linked list manipulation, and deque-based sliding window logic. The 132 Pattern was tricky at first but became clear after understanding the reverse iteration approach. Linked list reversal sharpened my pointer skills, and the sliding window maximum reinforced the importance of data structures like deque for efficiency.
 ---
 
 ## 📂 Folder Structure:
@@ -128,6 +143,10 @@ Today was packed with foundational techniques like binary search, two-pointers, 
 |   ├──question_02.py
 |   ├──question_03.py 
 ├── day6/
+|   ├──question_1.py
+|   ├──question_2.py
+|   ├──question_3.py
+├── day7/
 |   ├──question_1.py
 |   ├──question_2.py
 |   ├──question_3.py
