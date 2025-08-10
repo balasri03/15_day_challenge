@@ -117,6 +117,21 @@ Sliding Window Maximum (LeetCode 239)
 
 🧠 Reflection:
 Today’s problems were a solid mix of stack-based patterns, linked list manipulation, and deque-based sliding window logic. The 132 Pattern was tricky at first but became clear after understanding the reverse iteration approach. Linked list reversal sharpened my pointer skills, and the sliding window maximum reinforced the importance of data structures like deque for efficiency.
+
+📘 Day 8 - August 9, 2025
+Problems Solved:
+
+Simplify Path (LeetCode 71)
+➤ Used a stack to process directory changes (. and ..) and construct the canonical path.
+
+Basic Calculator (LeetCode 224)
+➤ Implemented using a stack to handle parentheses, signs, and multi-digit numbers in O(n) time.
+
+Decode String (LeetCode 394)
+➤ Solved using stack-based decoding for nested patterns like "3[a2[c]]".
+
+🧠 Reflection:
+Today was stack-heavy! From parsing directory paths to decoding nested strings and evaluating expressions, the stack proved to be an indispensable tool for structured, LIFO-based processing. Problems like decodeString were particularly fun and tested my ability to manage multiple data layers.
 ---
 
 ## 📂 Folder Structure:
@@ -147,6 +162,10 @@ Today’s problems were a solid mix of stack-based patterns, linked list manipul
 |   ├──question_2.py
 |   ├──question_3.py
 ├── day7/
+|   ├──question_1.py
+|   ├──question_2.py
+|   ├──question_3.py
+├── day8/
 |   ├──question_1.py
 |   ├──question_2.py
 |   ├──question_3.py
