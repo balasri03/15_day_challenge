@@ -103,7 +103,7 @@ Longest Substring Without Repeating Characters (LeetCode 3)
 🧠 Reflection:
 Today was packed with foundational techniques like binary search, two-pointers, and sliding window. These patterns are recurring themes in interviews, and solving them under time constraints helped reinforce clarity and speed. Sliding window problems are becoming more intuitive!
 
-📘 Day 7 - August 8, 2025
+## 📘 Day 7 - August 8, 2025
 Problems Solved:
 
 132 Pattern (LeetCode 456)
