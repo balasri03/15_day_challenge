@@ -132,6 +132,22 @@ Decode String (LeetCode 394)
 
 🧠 Reflection:
 Today was stack-heavy! From parsing directory paths to decoding nested strings and evaluating expressions, the stack proved to be an indispensable tool for structured, LIFO-based processing. Problems like decodeString were particularly fun and tested my ability to manage multiple data layers.
+
+
+📘 Day 9 - August 10, 2025
+Problems Solved:
+
+Maximum Depth of Binary Tree (LeetCode 104)
+➤ Solved using both DFS (recursive) and BFS (iterative) approaches to find tree depth.
+
+Container With Most Water (LeetCode 11)
+➤ Applied two-pointer technique to maximize area in O(n) time.
+
+Subarray Sum Equals K (LeetCode 560)
+➤ Used prefix sum and hashmap to achieve O(n) solution for counting valid subarrays.
+
+🧠 Reflection:
+Today was a great mix of tree traversal, two-pointer optimization, and prefix sum with hashing. The tree problem reinforced recursion fundamentals, while the container problem sharpened my pointer movement logic. Prefix sum problems continue to highlight the importance of cumulative computation for efficiency.
 ---
 
 ## 📂 Folder Structure:
@@ -166,6 +182,10 @@ Today was stack-heavy! From parsing directory paths to decoding nested strings a
 |   ├──question_2.py
 |   ├──question_3.py
 ├── day8/
+|   ├──question_1.py
+|   ├──question_2.py
+|   ├──question_3.py
+├── day9/
 |   ├──question_1.py
 |   ├──question_2.py
 |   ├──question_3.py
