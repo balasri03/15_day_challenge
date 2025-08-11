@@ -148,6 +148,21 @@ Subarray Sum Equals K (LeetCode 560)
 
 🧠 Reflection:
 Today was a great mix of tree traversal, two-pointer optimization, and prefix sum with hashing. The tree problem reinforced recursion fundamentals, while the container problem sharpened my pointer movement logic. Prefix sum problems continue to highlight the importance of cumulative computation for efficiency.
+
+Problems Solved:
+
+Fibonacci Number (LeetCode 509)
+➤ Solved using recursion, iteration, and dynamic programming (memoization) for optimal O(n) time.
+
+Climbing Stairs (LeetCode 70)
+➤ Implemented bottom-up dynamic programming approach (similar to Fibonacci) for O(n) time and O(1) space.
+
+Minimum Depth of Binary Tree (LeetCode 111)
+➤ Used BFS for shortest path to a leaf node and also explored DFS recursive approach.
+
+🧠 Reflection:
+Today’s problems reinforced the relationship between recursion and dynamic programming, especially in Fibonacci and Climbing Stairs. The binary tree problem was a good reminder that BFS is often the most efficient way to find shortest paths in tree-like structures
+
 ---
 
 ## 📂 Folder Structure:
