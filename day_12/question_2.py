@@ -4,7 +4,7 @@ class ListNode(object):
         self.next = next
 
 class Solution:
-    def isPalindrome(self, head: ListNode) -> bool:
+    def isPalindrome(self, head: ListNode):
         slow = fast = head
         while fast and fast.next:
             slow = slow.next

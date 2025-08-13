@@ -4,7 +4,7 @@ class ListNode(object):
         self.next = next
 
 class Solution:
-    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> Optional[ListNode]:
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode):
         a, b = headA, headB
         while a != b:
             a = headB if a is None else a.next
