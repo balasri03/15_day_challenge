@@ -149,6 +149,7 @@ Subarray Sum Equals K (LeetCode 560)
 🧠 Reflection:
 Today was a great mix of tree traversal, two-pointer optimization, and prefix sum with hashing. The tree problem reinforced recursion fundamentals, while the container problem sharpened my pointer movement logic. Prefix sum problems continue to highlight the importance of cumulative computation for efficiency.
 
+📘 Day 10 - August 10, 2025
 Problems Solved:
 
 Fibonacci Number (LeetCode 509)
@@ -163,7 +164,51 @@ Minimum Depth of Binary Tree (LeetCode 111)
 🧠 Reflection:
 Today’s problems reinforced the relationship between recursion and dynamic programming, especially in Fibonacci and Climbing Stairs. The binary tree problem was a good reminder that BFS is often the most efficient way to find shortest paths in tree-like structures
 
+## 📘 Day 11 - August 12, 2025
+
+**Problems Solved:**
+1. [Lowest Common Ancestor of a Binary Tree (LeetCode 236)](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)  
+   ➤ Solved using a recursive DFS approach that returns the node if it matches `p` or `q`, or if each is found in different subtrees. Time complexity: O(n), space: O(h) for recursion stack.
+
+2. [Coin Change (LeetCode 322)](https://leetcode.com/problems/coin-change/)  
+   ➤ Implemented bottom-up dynamic programming to compute the minimum coins needed for each amount up to the target. Used O(amount) space for optimization.
+
+3. [Number of Islands (LeetCode 200)](https://leetcode.com/problems/number-of-islands/)  
+   ➤ Used DFS to traverse and mark visited land cells. Alternative BFS approach also noted. Achieved O(m × n) time complexity.
+
 ---
+
+🧠 **Reflection:**  
+Covered **three different problem-solving paradigms** today:  
+- **Tree DFS** for Lowest Common Ancestor  
+- **Dynamic Programming** for Coin Change  
+- **Graph traversal** for Number of Islands  
+
+Great mix of recursion, tabulation, and grid-based BFS/DFS. This day helped reinforce switching between algorithmic mindsets depending on problem type.
+
+
+
+## 📘 Day 12 - August 13, 2025
+
+**Problems Solved:**
+1. [Remove Nth Node From End of List (LeetCode 19)](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  
+   ➤ Used a two-pointer technique to find the target node in one pass. Maintained a dummy head to simplify edge cases like removing the first node.
+
+2. [Palindrome Linked List (LeetCode 234)](https://leetcode.com/problems/palindrome-linked-list/)  
+   ➤ Found the middle of the list using fast/slow pointers, reversed the second half, and compared halves in O(n) time and O(1) space.
+
+3. [Intersection of Two Linked Lists (LeetCode 160)](https://leetcode.com/problems/intersection-of-two-linked-lists/)  
+   ➤ Used the length-difference alignment trick: advanced the longer list’s pointer until both lists had equal remaining length, then moved both in sync to find intersection.
+
+---
+
+🧠 **Reflection:**  
+Today was all about **linked list mastery** — removing nodes from the end, detecting palindromes, and finding intersection points. Practiced multiple core linked list patterns:  
+- Two-pointer traversal  
+- Fast/slow pointer for mid-point  
+- In-place reversal for memory efficiency  
+These problems reinforced clean pointer manipulation and the importance of dummy nodes for elegant edge-case handling.
+
 
 ## 📂 Folder Structure:
 ```bash
@@ -201,6 +246,18 @@ Today’s problems reinforced the relationship between recursion and dynamic pro
 |   ├──question_2.py
 |   ├──question_3.py
 ├── day9/
+|   ├──question_1.py
+|   ├──question_2.py
+|   ├──question_3.py
+├── day10/
+|   ├──question_1.py
+|   ├──question_2.py
+|   ├──question_3.py
+├── day11/
+|   ├──question_1.py
+|   ├──question_2.py
+|   ├──question_3.py
+├── day12/
 |   ├──question_1.py
 |   ├──question_2.py
 |   ├──question_3.py
