@@ -209,6 +209,21 @@ Today was all about **linked list mastery** — removing nodes from the end, det
 - In-place reversal for memory efficiency  
 These problems reinforced clean pointer manipulation and the importance of dummy nodes for elegant edge-case handling.
 
+📘 Day 13 - August 14, 2025
+
+Problems Solved:
+
+Remove All Adjacent Duplicates in String II (LeetCode 1209)
+➤ Used a stack to store characters along with their frequency, removing them when the count reached k.
+
+Asteroid Collision (LeetCode 735)
+➤ Simulated collisions using a stack to handle direction and magnitude checks efficiently.
+
+Make The String Great (LeetCode 1544)
+➤ Leveraged a stack to remove adjacent letters that differ only by case until the string stabilized.
+
+🧠 Reflection:
+Today was a stack-heavy day! All three problems highlighted how stacks are perfect for handling problems with “undo” or “collapse” mechanics. Mastering this pattern makes many string and simulation problems much simpler.
 
 ## 📂 Folder Structure:
 ```bash
@@ -258,6 +273,10 @@ These problems reinforced clean pointer manipulation and the importance of dummy
 |   ├──question_2.py
 |   ├──question_3.py
 ├── day12/
+|   ├──question_1.py
+|   ├──question_2.py
+|   ├──question_3.py
+├── day13/
 |   ├──question_1.py
 |   ├──question_2.py
 |   ├──question_3.py
